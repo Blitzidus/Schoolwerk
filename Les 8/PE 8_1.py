@@ -1,0 +1,5 @@
+bruin = set(['Boxtel', 'Best', 'Beukenlaan', 'Eindhoven', 'Helmond T Hout', 'Helmond', 'Helmond Brouwhuis', 'Deurne'])
+groen = set(['Boxtel', 'Best', 'Beukenlaan', 'Eindhoven', 'Geldrop', 'Heeze', 'Weert'])
+print(bruin & groen)
+print(bruin ^ groen)
+print(bruin) and print(groen)
