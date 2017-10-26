@@ -1,10 +1,9 @@
-def convert(celcius):
-    fahrenheit = celcius * 1.8 + 32
-    return(fahrenheit)
+def convert(celsius):
+    return celsius * 1.8 + 32
 
 def table():
-    print('F        C')
-    for x in range(-30, 41, 10):
-        print('{:>5}  {:>5}'.format(convert(x), float(x)))
+    print("   F      C")
+    for temp in range(-30, 41, 10):
+        print('{:>6} {:>6}'.format(convert(temp), float(temp)))
 
 table()
